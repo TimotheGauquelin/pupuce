@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
+import {MatStepperModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
 
 @NgModule({
@@ -17,6 +18,8 @@ import {MatIconModule} from '@angular/material';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
+    MatStepperModule
     BrowserAnimationsModule,
     MatIconModule
   ],
