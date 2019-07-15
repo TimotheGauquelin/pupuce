@@ -1,0 +1,27 @@
+:host{
+  background-color: #FDBC27;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 5px grey;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+img{
+  width: 200px;
+  height: 50px;
+
+}
+
+mat-icon{
+  color: white;
+  font-size: 35px;
+}
