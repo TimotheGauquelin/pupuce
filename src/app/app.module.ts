@@ -7,12 +7,14 @@ import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import {MatStepperModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
+import { TitleComponent } from './title/title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
