@@ -1,0 +1,51 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+div.section{
+  display: flex;
+  flex-direction: row;
+  margin: 1%  10%;
+  height: 90px;
+  width: 75%;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 0 1px 1px rgb(158, 158, 158);
+}
+
+div.bloc{
+  display: flex;
+  flex-direction: column;
+  margin: 1% 0;
+}
+
+div.texte1{
+  color: #24A2B8;
+}
+
+div.texte2{
+  font-size: 25px;
+  width: 250px;
+}
+
+mat-icon.location{
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 25px;
+  font-size: 35px;
+}
+
+mat-icon.agenda{
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 25px;
+  font-size: 35px;
+}
+
+mat-icon.people{
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 25px;
+  font-size: 35px;
+}
