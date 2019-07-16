@@ -21,14 +21,31 @@ div.bloc{
 }
 
 div.texte1{
-
+  color: #24A2B8;
 }
 
 div.texte2{
   font-size: 25px;
+  width: 250px;
 }
 
 mat-icon.location{
-  margin: 25px 40px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 25px;
+  font-size: 35px;
+}
+
+mat-icon.agenda{
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 25px;
+  font-size: 35px;
+}
+
+mat-icon.people{
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 25px;
   font-size: 35px;
 }
