@@ -14,6 +14,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
 import { NavigationButtonsComponent } from './shared/navigation-buttons/navigation-buttons.component';
+import { JustificatifsComponent } from './pages/justificatifs/justificatifs.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NavigationButtonsComponent } from './shared/navigation-buttons/navigati
     TitleComponent,
     MarcheAuxPucesComponent,
     InformationsComponent,
-    NavigationButtonsComponent
+    NavigationButtonsComponent,
+    JustificatifsComponent
   ],
   imports: [
     BrowserModule,
