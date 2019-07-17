@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-weight: 500;
 }
 
 div.section{
@@ -22,30 +23,28 @@ div.bloc{
 
 div.texte1{
   color: #24A2B8;
+  font-size: 15px;
 }
 
 div.texte2{
-  font-size: 25px;
   width: 250px;
+  font-size: 25px;
 }
 
 mat-icon.location{
   margin-top: 25px;
   margin-left: 100px;
   margin-right: 25px;
-  font-size: 35px;
 }
 
 mat-icon.agenda{
   margin-top: 25px;
   margin-left: 200px;
   margin-right: 25px;
-  font-size: 35px;
 }
 
 mat-icon.people{
   margin-top: 25px;
   margin-left: 200px;
   margin-right: 25px;
-  font-size: 35px;
 }
