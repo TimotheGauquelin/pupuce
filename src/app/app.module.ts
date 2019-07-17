@@ -1,14 +1,16 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './header/header.component';
-import { MenuComponent } from './menu/menu.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HeaderComponent} from './header/header.component';
+import {MenuComponent} from './shared/menu/menu.component';
 import {MatStepperModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
-import { TitleComponent } from './title/title.component';
-import { ContentComponent } from './content/content.component';
+import {TitleComponent} from './pages/marcheAuxPuces/title/title.component';
+import {MarcheAuxPucesComponent} from './pages/marcheAuxPuces/marcheAuxPuces.component';
+import {RouterModule} from '@angular/router';
+import { InformationsComponent } from './pages/informations/informations.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { ContentComponent } from './content/content.component';
     HeaderComponent,
     MenuComponent,
     TitleComponent,
-    ContentComponent
+    MarcheAuxPucesComponent,
+    InformationsComponent
   ],
   imports: [
     BrowserModule,
@@ -24,9 +27,14 @@ import { ContentComponent } from './content/content.component';
     BrowserAnimationsModule,
     MatStepperModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule.forRoot([
+      {path: 'marches-aux-puces', component: MarcheAuxPucesComponent},
+      {path: '**', redirectTo: 'marches-aux-puces'}
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
