@@ -16,6 +16,7 @@ import {MatRadioModule} from '@angular/material/radio';
 import { NavigationButtonsComponent } from './shared/navigation-buttons/navigation-buttons.component';
 import { JustificatifsComponent } from './pages/justificatifs/justificatifs.component';
 import { EmplacementComponent } from './pages/emplacement/emplacement.component';
+import { PaiementComponent } from './pages/paiement/paiement.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { EmplacementComponent } from './pages/emplacement/emplacement.component'
     InformationsComponent,
     NavigationButtonsComponent,
     JustificatifsComponent,
-    EmplacementComponent
+    EmplacementComponent,
+    PaiementComponent
   ],
   imports: [
     BrowserModule,
