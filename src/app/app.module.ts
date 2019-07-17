@@ -1,14 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './header/header.component';
-import { MenuComponent } from './menu/menu.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HeaderComponent} from './header/header.component';
+import {MenuComponent} from './shared/menu/menu.component';
 import {MatStepperModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
-import { TitleComponent } from './title/title.component';
-import { ContentComponent } from './content/content.component';
+import {TitleComponent} from './shared/title/title.component';
+import {MarcheAuxPucesComponent} from './pages/marcheAuxPuces/marcheAuxPuces.component';
+import {InformationsComponent} from './pages/informations/informations.component';
+import {MatInputModule} from '@angular/material/input';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatRadioModule} from '@angular/material/radio';
+import { NavigationButtonsComponent } from './shared/navigation-buttons/navigation-buttons.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,9 @@ import { ContentComponent } from './content/content.component';
     HeaderComponent,
     MenuComponent,
     TitleComponent,
-    ContentComponent
+    MarcheAuxPucesComponent,
+    InformationsComponent,
+    NavigationButtonsComponent
   ],
   imports: [
     BrowserModule,
@@ -24,9 +31,13 @@ import { ContentComponent } from './content/content.component';
     BrowserAnimationsModule,
     MatStepperModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule,
+    MatCheckboxModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
