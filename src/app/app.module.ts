@@ -10,6 +10,9 @@ import {MatIconModule} from '@angular/material';
 import {TitleComponent} from './shared/title/title.component';
 import {MarcheAuxPucesComponent} from './pages/marcheAuxPuces/marcheAuxPuces.component';
 import {InformationsComponent} from './pages/informations/informations.component';
+import {MatInputModule} from '@angular/material/input';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import {InformationsComponent} from './pages/informations/informations.component
     MatStepperModule,
     BrowserAnimationsModule,
     MatIconModule,
+    MatInputModule,
+    MatCheckboxModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
