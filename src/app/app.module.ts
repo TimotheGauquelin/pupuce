@@ -13,6 +13,7 @@ import {InformationsComponent} from './pages/informations/informations.component
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
+import { NavigationButtonsComponent } from './shared/navigation-buttons/navigation-buttons.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {MatRadioModule} from '@angular/material/radio';
     MenuComponent,
     TitleComponent,
     MarcheAuxPucesComponent,
-    InformationsComponent
+    InformationsComponent,
+    NavigationButtonsComponent
   ],
   imports: [
     BrowserModule,

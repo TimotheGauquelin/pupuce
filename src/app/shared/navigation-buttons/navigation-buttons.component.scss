@@ -1,0 +1,24 @@
+:host {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+.button1 {
+  height: 40px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.button2 {
+  background-color: #fdbc27;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 15px;
+  margin: 0 30px;
+}
