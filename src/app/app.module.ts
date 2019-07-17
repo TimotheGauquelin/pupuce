@@ -15,6 +15,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
 import { NavigationButtonsComponent } from './shared/navigation-buttons/navigation-buttons.component';
 import { JustificatifsComponent } from './pages/justificatifs/justificatifs.component';
+import { EmplacementComponent } from './pages/emplacement/emplacement.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { JustificatifsComponent } from './pages/justificatifs/justificatifs.comp
     MarcheAuxPucesComponent,
     InformationsComponent,
     NavigationButtonsComponent,
-    JustificatifsComponent
+    JustificatifsComponent,
+    EmplacementComponent
   ],
   imports: [
     BrowserModule,
