@@ -17,6 +17,7 @@ import { NavigationButtonsComponent } from './shared/navigation-buttons/navigati
 import { JustificatifsComponent } from './pages/justificatifs/justificatifs.component';
 import { EmplacementComponent } from './pages/emplacement/emplacement.component';
 import { PaiementComponent } from './pages/paiement/paiement.component';
+import { InscriptionValideeComponent } from './pages/inscription-validee/inscription-validee.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PaiementComponent } from './pages/paiement/paiement.component';
     NavigationButtonsComponent,
     JustificatifsComponent,
     EmplacementComponent,
-    PaiementComponent
+    PaiementComponent,
+    InscriptionValideeComponent
   ],
   imports: [
     BrowserModule,

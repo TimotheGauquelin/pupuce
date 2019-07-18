@@ -1,0 +1,56 @@
+<app-menu></app-menu>
+<app-title texte="Inscription validée"></app-title>
+
+<div id="content">
+
+  <div id="coordonee">
+    <div class="coordoneeBloc">
+      <span class="titre"> Prénom :</span>
+      <br><span class="" texte>Maxime</span>
+    </div>
+    <div class="coordoneeBloc">
+      <span class="titre">Nom :</span>
+      <br><span class="texte">DUPONT</span>
+    </div>
+    <div class="coordoneeBloc">
+      <span class="titre">E-mail :</span>
+      <span class="texte"><br>maxime.dupont@gmail.com</span>
+    </div>
+    <div class="coordoneeBloc">
+      <span class="titre">Téléphone :</span>
+      <span class="texte"><br>03 25 98 74 56</span>
+    </div>
+    <div class="coordoneeBloc">
+      <span class="titre">Adresse :</span>
+      <span class="texte">
+          <br>9 rue des Flandres
+          <p>Faches-thumesnil - 59 155</p>
+        </span>
+    </div>
+  </div>
+
+    <div id="emplacement">
+      <div class="emplacementBloc">
+        <span class="titre">Emplacement :</span>
+        <span class="texte"><br>N° 103</span>
+      </div>
+      <div class="emplacementBloc">
+        <span class="titre">Mode de paiement :</span>
+        <span class="texte"><br>Carte bancaire</span>
+      </div>
+      <div class="emplacementBloc">
+        <span class="titre">Somme payée :</span>
+        <span class="texte"><br>4€</span>
+      </div>
+    </div>
+
+  <div id="boutton">
+    <button class="boutton">IMPRIMER LE RESUME D'INSCRIPTION</button>
+    <button class="boutton">ENVOYER PAR MAIL</button>
+  </div>
+</div>
+
+<div id="retourNouvelle">
+  <button class="retourMenu">RETOUR MENU</button>
+  <button class="nouvelleInscription" [routerLink]="['/marches-aux-puces']">NOUVELLE INSCRIPTION</button>
+</div>
