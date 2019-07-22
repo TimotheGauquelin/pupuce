@@ -18,6 +18,7 @@ import { JustificatifsComponent } from './pages/justificatifs/justificatifs.comp
 import { EmplacementComponent } from './pages/emplacement/emplacement.component';
 import { PaiementComponent } from './pages/paiement/paiement.component';
 import { InscriptionValideeComponent } from './pages/inscription-validee/inscription-validee.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { InscriptionValideeComponent } from './pages/inscription-validee/inscrip
     MatIconModule,
     MatInputModule,
     MatCheckboxModule,
-    MatRadioModule
+    MatRadioModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,8 +1,8 @@
 <form>
-  <input class="button1" type="button" value="&lt; RETOUR" onclick="history.go(+1)">
+  <input class="button1" type="button" value="&lt; RETOUR" (click)="goToPrevRoute()">
 </form>
 <form>
-  <input class="button2" type="button" value="SUIVANT &gt;" onclick="history.go(-1)">
+  <input class="button2" type="button" value="SUIVANT &gt;" (click)="goToNextRoute()">
 </form>
 
 
