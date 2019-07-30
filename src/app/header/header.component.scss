@@ -26,3 +26,13 @@ mat-icon{
   font-size: 35px;
 }
 
+// Responsive téléphone pour width max 360px
+@media (max-width: 360px){
+  img{
+
+  }
+
+  .titre{
+    font-size: 16px;
+  }
+}
