@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -6,5 +6,6 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent {
-
+  @Input()
+  public selectedIndex = 0;
 }
