@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "maquettePupuce": {
+        "pupuce-ng": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/maquettePupuce",
+                        "outputPath": "dist/pupuce-ng",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "maquettePupuce:build"
+                        "browserTarget": "pupuce-ng:build"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "maquettePupuce:build:production"
+                            "browserTarget": "pupuce-ng:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "maquettePupuce:build"
+                        "browserTarget": "pupuce-ng:build"
                     }
                 },
                 "lint": {
@@ -93,5 +93,5 @@
             }
         }
     },
-    "defaultProject": "maquettePupuce"
+    "defaultProject": "pupuce-ng"
 }
