@@ -13,41 +13,41 @@ import {InformationsComponent} from './pages/informations/informations.component
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
-import { NavigationButtonsComponent } from './shared/navigation-buttons/navigation-buttons.component';
-import { JustificatifsComponent } from './pages/justificatifs/justificatifs.component';
-import { EmplacementComponent } from './pages/emplacement/emplacement.component';
-import { PaiementComponent } from './pages/paiement/paiement.component';
-import { InscriptionValideeComponent } from './pages/inscription-validee/inscription-validee.component';
-import { CommonModule } from '@angular/common';
+import {NavigationButtonsComponent} from './shared/navigation-buttons/navigation-buttons.component';
+import {JustificatifsComponent} from './pages/justificatifs/justificatifs.component';
+import {EmplacementComponent} from './pages/emplacement/emplacement.component';
+import {PaiementComponent} from './pages/paiement/paiement.component';
+import {InscriptionValideeComponent} from './pages/inscription-validee/inscription-validee.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    MenuComponent,
-    TitleComponent,
-    MarcheAuxPucesComponent,
-    InformationsComponent,
-    NavigationButtonsComponent,
-    JustificatifsComponent,
-    EmplacementComponent,
-    PaiementComponent,
-    InscriptionValideeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatStepperModule,
-    BrowserAnimationsModule,
-    MatIconModule,
-    MatInputModule,
-    MatCheckboxModule,
-    MatRadioModule,
-    CommonModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        MenuComponent,
+        TitleComponent,
+        MarcheAuxPucesComponent,
+        InformationsComponent,
+        NavigationButtonsComponent,
+        JustificatifsComponent,
+        EmplacementComponent,
+        PaiementComponent,
+        InscriptionValideeComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatStepperModule,
+        BrowserAnimationsModule,
+        MatIconModule,
+        MatInputModule,
+        MatCheckboxModule,
+        MatRadioModule,
+        CommonModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }

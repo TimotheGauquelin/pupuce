@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-inscription-validee',
-  templateUrl: './inscription-validee.component.html',
-  styleUrls: ['./inscription-validee.component.scss']
+    selector: 'app-inscription-validee',
+    templateUrl: './inscription-validee.component.html',
+    styleUrls: ['./inscription-validee.component.scss']
 })
 export class InscriptionValideeComponent implements OnInit {
 
-  constructor() { }
+    constructor() {
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }

@@ -1,59 +1,59 @@
-div.modePaiement{
-  display: flex;
-  flex-direction: row;
-  margin: 2% 10%;
+div.modePaiement {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 10%;
 
-  span.modePaiement{
-    font-weight: 500;
-  }
-
-  mat-radio-group{
-    margin-left: 30px;
-
-    mat-radio-button{
-      margin-left: 20px;
+    span.modePaiement {
+        font-weight: 500;
     }
-  }
+
+    mat-radio-group {
+        margin-left: 30px;
+
+        mat-radio-button {
+            margin-left: 20px;
+        }
+    }
 }
 
-div.sommeAPercevoir{
-  display: flex;
-  flex-direction: row;
-  margin: 2% 10%;
+div.sommeAPercevoir {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 10%;
 
-  span.sommeAPercevoir{
-    font-weight: 500;
-  }
+    span.sommeAPercevoir {
+        font-weight: 500;
+    }
 
-  mat-form-field{
-    margin-left: 50px;
-    width: 150px;
-  }
+    mat-form-field {
+        margin-left: 50px;
+        width: 150px;
+    }
 }
 
-div.sommePercue{
-  display: flex;
-  flex-direction: row;
-  margin: 2% 10%;
+div.sommePercue {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 10%;
 
-  span.sommePercue{
-    font-weight: 500;
-  }
+    span.sommePercue {
+        font-weight: 500;
+    }
 
-  mat-form-field{
-    margin-left: 80px;
-    width: 150px;
-  }
+    mat-form-field {
+        margin-left: 80px;
+        width: 150px;
+    }
 }
 
-button.terminerInscription{
-  border-radius: 0;
-  background-color: #FDBC27;
-  border: none;
-  height: 40px;
-  width: 300px;
-  margin-left: 30%;
-  margin-top: 1%;
+button.terminerInscription {
+    border-radius: 0;
+    background-color: #FDBC27;
+    border: none;
+    height: 40px;
+    width: 300px;
+    margin-left: 30%;
+    margin-top: 1%;
 }
 
 

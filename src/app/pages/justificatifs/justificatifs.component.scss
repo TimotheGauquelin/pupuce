@@ -1,27 +1,27 @@
-div.content{
-  display: flex;
-  flex-direction: column;
-  margin: 2% 10%;
+div.content {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 10%;
 }
 
-mat-checkbox{
-  margin-bottom: 30px;
+mat-checkbox {
+    margin-bottom: 30px;
 }
 
-div.autre{
-  display: flex;
-  flex-direction: row;
+div.autre {
+    display: flex;
+    flex-direction: row;
 
-  mat-form-field{
-    margin-left: 30px;
-  }
+    mat-form-field {
+        margin-left: 30px;
+    }
 }
 
-mat-checkbox.autre{
-  margin-top: 20px;
+mat-checkbox.autre {
+    margin-top: 20px;
 }
 
-span{
-  margin-bottom: 30px;
-  font-weight: 500;
+span {
+    margin-bottom: 30px;
+    font-weight: 500;
 }

@@ -1,43 +1,44 @@
 @import '~@angular/material/theming';
+
 @include mat-core();
 
 $md-mypalette: (
-  50 : #e5f4f6,
-  100 : #bde3ea,
-  200 : #92d1dc,
-  300 : #66becd,
-  400 : #45b0c3,
-  500 : #24a2b8,
-  600 : #209ab1,
-  700 : #1b90a8,
-  800 : #1686a0,
-  900 : #0d7591,
-  A100 : #c1f0ff,
-  A200 : #8ee4ff,
-  A400 : #5bd8ff,
-  A700 : #41d2ff,
-  contrast: (
-    50 : #000000,
-    100 : #000000,
-    200 : #000000,
-    300 : #000000,
-    400 : #000000,
-    500 : #ffffff,
-    600 : #ffffff,
-    700 : #ffffff,
-    800 : #ffffff,
-    900 : #ffffff,
-    A100 : #000000,
-    A200 : #000000,
-    A400 : #000000,
-    A700 : #000000,
-  )
+    50 : #e5f4f6,
+    100 : #bde3ea,
+    200 : #92d1dc,
+    300 : #66becd,
+    400 : #45b0c3,
+    500 : #24a2b8,
+    600 : #209ab1,
+    700 : #1b90a8,
+    800 : #1686a0,
+    900 : #0d7591,
+    A100 : #c1f0ff,
+    A200 : #8ee4ff,
+    A400 : #5bd8ff,
+    A700 : #41d2ff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
 );
 
 
 // Obligatoires pour la thématisation
 $md-mypalette-primary: mat-palette($md-mypalette);
-$md-mypalette-accent:  mat-palette($md-mypalette);
+$md-mypalette-accent: mat-palette($md-mypalette);
 
 
 // Inclut les composants de thème personnalisés

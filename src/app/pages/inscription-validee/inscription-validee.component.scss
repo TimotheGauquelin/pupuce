@@ -1,91 +1,91 @@
 div#content {
-  display: flex;
-  flex-direction: row;
-  margin: 2% 10%;
-  margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 2% 10%;
+    margin-bottom: 0;
 
-  div#coordonee, #emplacement, #boutton{
-    margin-right: 5%;
-  }
+    div#coordonee, #emplacement, #boutton {
+        margin-right: 5%;
+    }
 }
 
 div#coordonee {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid grey;
-  box-shadow: 0 1px 1px rgb(158, 158, 158);
-  width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    box-shadow: 0 1px 1px rgb(158, 158, 158);
+    width: 350px;
 
-  div.coordoneeBloc {
-    margin-left: 30px;
-    margin-top: 20px;
+    div.coordoneeBloc {
+        margin-left: 30px;
+        margin-top: 20px;
 
-    span.titre {
-      color: #24A2B8;
-      font-size: 12px;
+        span.titre {
+            color: #24A2B8;
+            font-size: 12px;
 
-      p {
-        margin-top: 5px;
-      }
+            p {
+                margin-top: 5px;
+            }
+        }
     }
-  }
 }
 
 div#emplacement {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid grey;
-  box-shadow: 0 1px 1px rgb(158, 158, 158);
-  width: 350px;
-  height: 210px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    box-shadow: 0 1px 1px rgb(158, 158, 158);
+    width: 350px;
+    height: 210px;
 
-  div.emplacementBloc {
-    margin-left: 30px;
-    margin-top: 20px;
+    div.emplacementBloc {
+        margin-left: 30px;
+        margin-top: 20px;
 
-    span.titre {
-      color: #24A2B8;
-      font-size: 12px;
+        span.titre {
+            color: #24A2B8;
+            font-size: 12px;
+        }
     }
-  }
 }
 
-div#boutton{
-  display: flex;
-  flex-direction: column;
- border-top: 25px;
+div#boutton {
+    display: flex;
+    flex-direction: column;
+    border-top: 25px;
 
-  button{
-    border-radius: 0;
-    border: none;
-    background-color: #24A2B8;
-    height: 50px;
-    margin-bottom: 50px;
-    color: white;
-  }
+    button {
+        border-radius: 0;
+        border: none;
+        background-color: #24A2B8;
+        height: 50px;
+        margin-bottom: 50px;
+        color: white;
+    }
 }
 
-div#retourNouvelle{
-  display: flex;
-  flex-direction: row;
-  margin-left: 70%;
-  width: 500px;
+div#retourNouvelle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+    width: 500px;
 
-  button{
-    height: 50px;
-    width: 200px;
-    border-radius: 0;
-    border: none;
-  }
+    button {
+        height: 50px;
+        width: 200px;
+        border-radius: 0;
+        border: none;
+    }
 
-  button.retourMenu{
-    background-color: #EDEDED;
-  }
+    button.retourMenu {
+        background-color: #EDEDED;
+    }
 
-  button.nouvelleInscription{
-    background-color: #FDBC27;
-    margin-left: 50px;
-  }
+    button.nouvelleInscription {
+        background-color: #FDBC27;
+        margin-left: 50px;
+    }
 }
 
 

@@ -1,27 +1,27 @@
 :host {
-  display: flex;
-  align-self: flex-end;
-  margin-left: 80%;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 80%;
 }
 
 form {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .button1 {
-  height: 40px;
-  border-radius: 0px;
-  font-size: 15px;
-  border: none;
-  background: #EDEDED;
+    height: 40px;
+    border-radius: 0px;
+    font-size: 15px;
+    border: none;
+    background: #EDEDED;
 }
 
 .button2 {
-  background-color: #fdbc27;
-  height: 40px;
-  border-radius: 0px;
-  border: none;
-  font-size: 15px;
-  margin: 0 30px;
+    background-color: #fdbc27;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    font-size: 15px;
+    margin: 0 30px;
 }
