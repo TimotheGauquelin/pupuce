@@ -4,7 +4,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HeaderComponent} from './header/header.component';
-import {MenuComponent} from './shared/components/menu/menu.component';
 import {MatStepperModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
 import {TitleComponent} from './shared/components/title/title.component';
@@ -26,7 +25,6 @@ import {MatRippleModule} from '@angular/material/core';
     declarations: [
         AppComponent,
         HeaderComponent,
-        MenuComponent,
         TitleComponent,
         MarcheAuxPucesComponent,
         InformationsComponent,
