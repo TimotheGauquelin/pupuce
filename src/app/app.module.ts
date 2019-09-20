@@ -20,7 +20,9 @@ import {InscriptionValideeComponent} from './pages/inscription-validee/inscripti
 import {CommonModule} from '@angular/common';
 import { SelectionTableComponent } from './pages/selection-table/selection-table.component';
 import {MatRippleModule} from '@angular/material/core';
-
+import { NumeroReservationComponent } from './pages/numero-reservation/numero-reservation.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
     declarations: [
         AppComponent,
@@ -34,6 +36,8 @@ import {MatRippleModule} from '@angular/material/core';
         PaiementComponent,
         InscriptionValideeComponent,
         SelectionTableComponent,
+        NumeroReservationComponent,
+
     ],
     imports: [
         BrowserModule,
@@ -47,6 +51,8 @@ import {MatRippleModule} from '@angular/material/core';
         MatRadioModule,
         CommonModule,
         MatRippleModule,
+        MatCardModule,
+        MatButtonModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

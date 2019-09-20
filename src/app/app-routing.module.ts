@@ -7,15 +7,17 @@ import {EmplacementComponent} from './pages/emplacement/emplacement.component';
 import {PaiementComponent} from './pages/paiement/paiement.component';
 import {InscriptionValideeComponent} from './pages/inscription-validee/inscription-validee.component';
 import { SelectionTableComponent } from './pages/selection-table/selection-table.component';
+import { NumeroReservationComponent } from './pages/numero-reservation/numero-reservation.component';
 
 const routes: Routes = [
     {path: 'marches-aux-puces', component: MarcheAuxPucesComponent},
-    {path: 'informations', component: InformationsComponent},
+    {path: 'marches-aux-puces/:id/informations', component: InformationsComponent},
     {path: 'justificatifs', component: JustificatifsComponent},
     {path: 'emplacement', component: EmplacementComponent},
     {path: 'paiement', component: PaiementComponent},
     {path: 'inscription-validee', component: InscriptionValideeComponent},
     {path: 'selection-table', component: SelectionTableComponent},
+    {path: 'marches-aux-puces/:id/code-reservation/:code', component: NumeroReservationComponent},
     {path: '**', redirectTo: 'marches-aux-puces'}
 ];
 
