@@ -6,6 +6,7 @@ import {JustificatifsComponent} from './pages/justificatifs/justificatifs.compon
 import {EmplacementComponent} from './pages/emplacement/emplacement.component';
 import {PaiementComponent} from './pages/paiement/paiement.component';
 import {InscriptionValideeComponent} from './pages/inscription-validee/inscription-validee.component';
+import { SelectionTableComponent } from './pages/selection-table/selection-table.component';
 
 const routes: Routes = [
     {path: 'marches-aux-puces', component: MarcheAuxPucesComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
     {path: 'emplacement', component: EmplacementComponent},
     {path: 'paiement', component: PaiementComponent},
     {path: 'inscription-validee', component: InscriptionValideeComponent},
+    {path: 'selection-table', component: SelectionTableComponent},
     {path: '**', redirectTo: 'marches-aux-puces'}
 ];
 

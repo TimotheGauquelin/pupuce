@@ -19,6 +19,8 @@ import {EmplacementComponent} from './pages/emplacement/emplacement.component';
 import {PaiementComponent} from './pages/paiement/paiement.component';
 import {InscriptionValideeComponent} from './pages/inscription-validee/inscription-validee.component';
 import {CommonModule} from '@angular/common';
+import { SelectionTableComponent } from './pages/selection-table/selection-table.component';
+import {MatRippleModule} from '@angular/material/core';
 
 @NgModule({
     declarations: [
@@ -32,7 +34,8 @@ import {CommonModule} from '@angular/common';
         JustificatifsComponent,
         EmplacementComponent,
         PaiementComponent,
-        InscriptionValideeComponent
+        InscriptionValideeComponent,
+        SelectionTableComponent,
     ],
     imports: [
         BrowserModule,
@@ -44,7 +47,8 @@ import {CommonModule} from '@angular/common';
         MatInputModule,
         MatCheckboxModule,
         MatRadioModule,
-        CommonModule
+        CommonModule,
+        MatRippleModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
