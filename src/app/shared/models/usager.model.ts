@@ -6,4 +6,8 @@ export interface Usager {
     adresse: string;
     ville: string;
     codePostal: string;
+
+    resident: boolean;
+    commercant: boolean;
+    association: boolean;
 }
