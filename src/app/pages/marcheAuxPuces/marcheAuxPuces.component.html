@@ -2,49 +2,26 @@
 </app-title>
 
 <div id="secteurBloc">
-    <div class="secteurSousBloc" [routerLink]="['/informations']">
+    <div class="secteurSousBloc" [routerLink]="['/informations']" *ngFor="let map of marchesAuxPuces">
         <div class="lieu">
             <i class="material-icons">place</i>
             <div class=textLieu>
                 <div class=text1>Lieu :</div>
-                <div class=text2> Secteur Thumesnil </div>
+                <div class=text2> {{ map.nomSecteur }} </div>
             </div>
         </div>
         <div class="date">
             <i class="material-icons">event_note</i>
             <div class=textLieu>
                 <div class=text1> Date :</div>
-                <div class=text2> 28 Avril 2019 </div>
+                <div class=text2> {{ map.date }} </div>
             </div>
         </div>
         <div class="emplacement">
             <i class="material-icons"> group</i>
             <div class=textLieu>
                 <div class=text1>Emplacements disponibles :</div>
-                <div class=text2> 24 / 90 </div>
-            </div>
-        </div>
-    </div>
-    <div class="secteurSousBloc" [routerLink]="['/informations']">
-        <div class="lieu">
-            <i class="material-icons">place</i>
-            <div class=textLieu>
-                <div class=text1>Lieu :</div>
-                <div class=text2> Secteur Faches </div>
-            </div>
-        </div>
-        <div class="date">
-            <i class="material-icons">event_note</i>
-            <div class=textLieu>
-                <div class=text1>Date :</div>
-                <div class=text2> 29 Septembre 2019 </div>
-            </div>
-        </div>
-        <div class="emplacement">
-            <i class="material-icons"> group</i>
-            <div class=textLieu>
-                <div class=text1>Emplacements disponibles :</div>
-                <div class=text2> 54 / 78 </div>
+                <div class=text2> {{ map.nombreEmplacementReserve }} / {{ map.nombreEmplacementTotal }} </div>
             </div>
         </div>
     </div>
