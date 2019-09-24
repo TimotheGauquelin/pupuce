@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute, Params} from '@angular/router';
 
 @Component({
-  selector: 'app-numero-reservation',
-  templateUrl: './numero-reservation.component.html',
-  styleUrls: ['./numero-reservation.component.scss']
+    selector: 'app-numero-reservation',
+    templateUrl: './numero-reservation.component.html',
+    styleUrls: ['./numero-reservation.component.scss']
 })
-export class NumeroReservationComponent implements OnInit {
+export class NumeroReservationComponent {
 
-  constructor() { }
+    public codeReservation = '';
 
-  ngOnInit() {
-  }
+    constructor(route: ActivatedRoute) {
+        route.params.subscribe((params: Params) => {
+            this.codeReservation = params.code;
+        });
+    }
 
 }
