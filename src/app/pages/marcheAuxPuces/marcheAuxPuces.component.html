@@ -2,7 +2,7 @@
 </app-title>
 
 <div id="secteurBloc">
-    <div class="secteurSousBloc" [routerLink]="['/informations']" *ngFor="let map of marchesAuxPuces">
+    <div class="secteurSousBloc" (click)='goToInformations(map.id)' *ngFor="let map of marchesAuxPuces">
         <div class="lieu">
             <i class="material-icons">place</i>
             <div class=textLieu>
