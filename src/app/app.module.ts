@@ -4,7 +4,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HeaderComponent} from './header/header.component';
-import {MenuComponent} from './shared/components/menu/menu.component';
 import {MatStepperModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
 import {TitleComponent} from './shared/components/title/title.component';
@@ -19,12 +18,15 @@ import {EmplacementComponent} from './pages/emplacement/emplacement.component';
 import {PaiementComponent} from './pages/paiement/paiement.component';
 import {InscriptionValideeComponent} from './pages/inscription-validee/inscription-validee.component';
 import {CommonModule} from '@angular/common';
-
+import { SelectionTableComponent } from './pages/selection-table/selection-table.component';
+import {MatRippleModule} from '@angular/material/core';
+import { NumeroReservationComponent } from './pages/numero-reservation/numero-reservation.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
     declarations: [
         AppComponent,
         HeaderComponent,
-        MenuComponent,
         TitleComponent,
         MarcheAuxPucesComponent,
         InformationsComponent,
@@ -32,7 +34,10 @@ import {CommonModule} from '@angular/common';
         JustificatifsComponent,
         EmplacementComponent,
         PaiementComponent,
-        InscriptionValideeComponent
+        InscriptionValideeComponent,
+        SelectionTableComponent,
+        NumeroReservationComponent,
+
     ],
     imports: [
         BrowserModule,
@@ -44,7 +49,10 @@ import {CommonModule} from '@angular/common';
         MatInputModule,
         MatCheckboxModule,
         MatRadioModule,
-        CommonModule
+        CommonModule,
+        MatRippleModule,
+        MatCardModule,
+        MatButtonModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

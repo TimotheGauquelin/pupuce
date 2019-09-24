@@ -1,0 +1,51 @@
+#blocprincipal {
+    /*Flex*/
+    display: flex;
+    flex-direction: row;
+    /*Police*/
+    & p {
+        margin-left: 2%;
+        font-size: 40px;
+    }
+}
+
+mat-card {
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 500px;
+    width: 500px;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & p {
+        font-size: 40px;
+        font-weight: normal;
+        margin: 0;
+        &#grostitre {
+            font-weight: bold;
+        }
+    }
+}
+
+#verslaprochaineetape {
+    height: 500px;
+    width: 800px;
+    margin-left: 10%;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nouvelleReservation {
+    height: 80px;
+    width: 350px;
+    background-color: #FDBC27;
+    margin-top: 50px;
+    //Police//
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
