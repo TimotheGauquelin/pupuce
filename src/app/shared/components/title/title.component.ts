@@ -8,7 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class TitleComponent {
 
     @Input()
-    public texte: String;
+    public texte: string;
 
 }
 

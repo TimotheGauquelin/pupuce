@@ -18,7 +18,7 @@ const routes: Routes = [
     {path: 'inscription-validee', component: InscriptionValideeComponent},
     {path: 'selection-table', component: SelectionTableComponent},
     {path: 'marches-aux-puces/:id/code-reservation/:code', component: NumeroReservationComponent},
-    {path: '**', redirectTo: 'marches-aux-puces'}
+    {path: '**', redirectTo: 'selection-table'}
 ];
 
 @NgModule({
