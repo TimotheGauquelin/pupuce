@@ -1,10 +1,12 @@
 <app-title texte="Paiement"></app-title>
 
-<div class="content">
+<div class="nomEtPrenom">nom : prénom :</div>
+
+<form class="paiement" #formPaiement="ngForm" (ngSubmit)="submitBordereau(formPaiement.value)" autocomplete="off">
 
     <div class="modePaiement">
         <span class="modePaiement">Mode de paiement :</span>
-        <mat-radio-group>
+        <mat-radio-group ngModel name="modePaiment" required>
             <mat-radio-button value="1">Espèces</mat-radio-button>
             <mat-radio-button value="2">Chèque</mat-radio-button>
         </mat-radio-group>
@@ -12,20 +14,17 @@
 
     <div class="sommeAPercevoir">
         <span class="sommeAPercevoir">Somme à percevoir :</span>
-        <mat-form-field>
-            <input matInput placeholder="Somme à percevoir" value="4">
-            <span matSuffix>€</span>
-        </mat-form-field>
+        <div class="montantAPayer">{{sommeAPayer}}</div>
     </div>
 
-    <div class="sommePercue">
-        <span class="sommePercue">Somme perçue :</span>
+    <div class="numeroBordereau">
+        <span class="sommePercue">Numéro de bordereau :</span>
         <mat-form-field>
-            <input matInput placeholder="Somme perçue" value="4">
-            <span matSuffix>€</span>
+            <input matInput placeholder="Numéro de bordereau" ngModel name="numeroBorderau" required>
         </mat-form-field>
     </div>
+    <button type="submit" class="terminerInscription" [disabled]="formPaiement.invalid">
+        VALIDER LE PAIEMENT
+    </button>
+</form>
 
-</div>
-
-<button class="terminerInscription" [routerLink]="['/inscription-validee']">TERMINER L'INSCRIPTION</button>

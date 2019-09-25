@@ -14,8 +14,8 @@ const routes: Routes = [
     {path: 'marches-aux-puces/:id/informations', component: InformationsComponent},
     {path: 'justificatifs', component: JustificatifsComponent},
     {path: 'emplacement', component: EmplacementComponent},
-    {path: 'paiement', component: PaiementComponent},
-    {path: 'inscription-validee', component: InscriptionValideeComponent},
+    {path: 'marches-aux-puces/:id/reservations/:code/paiement', component: PaiementComponent},
+    {path: 'marches-aux-puces/:id/reservations/:code/synthese', component: InscriptionValideeComponent},
     {path: 'selection-table', component: SelectionTableComponent},
     {path: 'marches-aux-puces/:id/code-reservation/:code', component: NumeroReservationComponent},
     {path: '**', redirectTo: 'selection-table'}

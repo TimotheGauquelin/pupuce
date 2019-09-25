@@ -18,11 +18,14 @@ import {EmplacementComponent} from './pages/emplacement/emplacement.component';
 import {PaiementComponent} from './pages/paiement/paiement.component';
 import {InscriptionValideeComponent} from './pages/inscription-validee/inscription-validee.component';
 import {CommonModule} from '@angular/common';
-import { SelectionTableComponent } from './pages/selection-table/selection-table.component';
+import {SelectionTableComponent} from './pages/selection-table/selection-table.component';
 import {MatRippleModule} from '@angular/material/core';
-import { NumeroReservationComponent } from './pages/numero-reservation/numero-reservation.component';
+import {NumeroReservationComponent} from './pages/numero-reservation/numero-reservation.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -37,7 +40,6 @@ import {MatButtonModule} from '@angular/material/button';
         InscriptionValideeComponent,
         SelectionTableComponent,
         NumeroReservationComponent,
-
     ],
     imports: [
         BrowserModule,
@@ -53,6 +55,8 @@ import {MatButtonModule} from '@angular/material/button';
         MatRippleModule,
         MatCardModule,
         MatButtonModule,
+        HttpClientModule,
+        FormsModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
