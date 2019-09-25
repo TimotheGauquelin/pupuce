@@ -1,7 +1,7 @@
 div.modePaiement {
     display: flex;
     flex-direction: row;
-    margin: 2% 10%;
+    margin: 4% 10%;
 
     span.modePaiement {
         font-weight: 500;
@@ -25,24 +25,29 @@ div.sommeAPercevoir {
         font-weight: 500;
     }
 
-    mat-form-field {
+    div.montantAPayer {
         margin-left: 50px;
         width: 150px;
+        height: 20px;
+        width: 60px;
+        text-align: center;
+        font-weight: 500;
     }
 }
 
-div.sommePercue {
+div.numeroBordereau {
     display: flex;
     flex-direction: row;
-    margin: 2% 10%;
+    margin: 3% 10%;
 
     span.sommePercue {
+        padding-top: 25px;
         font-weight: 500;
     }
 
     mat-form-field {
-        margin-left: 80px;
-        width: 150px;
+        margin-left: 50px;
+        width: 200px;
     }
 }
 
@@ -52,8 +57,7 @@ button.terminerInscription {
     border: none;
     height: 40px;
     width: 300px;
-    margin-left: 30%;
-    margin-top: 1%;
+    margin: 1% 35%;
 }
 
 
